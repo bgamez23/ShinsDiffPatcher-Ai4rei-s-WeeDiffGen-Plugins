@@ -1,0 +1,281 @@
+This folder contains builds of plugins for WeeDiffGen plugin for
+WeeDiff. Sources are available in the subversion repository in
+
+/trunk/WeeDiff/WeeDiff/WeeDiffGen/WeeDiffGen/<name of plugin>
+
+============= WDGAllowMultipleWindows
+Allow Multiple Windows
+Allows your to start more than one client at the same time.
+
+============= WDGAllowChatFlood
+Allow Chat Flood
+Allows you to repeat the same line n-times.
+
+============= WDGChatAtBug
+Chat @-Bug
+Allows you to use the @ symbol without changing shortcuts.
+
+============= WDGChatColorGM
+Chat Color GM
+Changes the text color of GM chat messages.
+
+============= WDGChatColorGuild
+Chat Color Guild
+Changes the text color of guild chat messages.
+
+============= WDGChatColorNormal
+Chat Color Normal
+Changes the text color of normal chat messages.
+
+============= WDGChatColorParty
+Chat Color Party
+Changes the text color of party chat messages.
+
+============= WDGChatColorSelf
+Chat Color Self
+Changes the text color of own chat messages.
+
+============= WDGCustomWindowTitle
+Custom Window Title
+Changes the window title to a custom one.
+
+============= WDGDisableMultipleWindows
+Disable Multiple Windows
+Prevents the client from creating more than one instance on all lang types.
+
+============= WDGDisable1rag1
+Disable 1rag1 & 1sak1
+Allows you to start the client without 1rag1 & 1sak1 as command line parameters.
+
+============= WDGDisableSwearFilter
+Disable Swear Filter
+Allows you to skip the swear prevention function.
+
+============= WDGDisableNagleAlgorithm
+Disable Nagle Algorithm
+The Nagle Algorithm delays packet transfer by combining small packets into a large one reducing bandwidth while increasing latency.
+
+============= WDGDisable4LetterUserIDLimit
+Disable 4 Letter User ID Limit
+Removes the limit of min. 4 characters for the account name.
+
+============= WDGDisableFilenameCheck
+Disable RagexeRE Filename Check
+Allows you to rename the executable to whatever you want.
+
+============= WDGDisableHShield
+Disable HShield
+Prevents AhnLabs HackShield from beeing loaded during client start up.
+
+============= WDGEnableOfficialCustomFonts
+Enable Official Custom Fonts
+Tells the client to read *.eot files on all langtypes.
+
+============= WDGEnableDNSSupport
+Enable DNS Support
+Allows the client to read fully-qualified host names inside the clientinfo xml file.
+
+============= WDGEnable127Hairstyles
+Enable 127 Hairstyles
+Allows you to use more than the default max. 27 hairstyles.
+
+============= WDGEnableMultipleGRFExtended
+Enable Multiple GRFs
+Tells the client to load grf files based on a list within data.ini (allows custom ini name to be specified).
+
+============= WDGEnableAuraOverLvl99
+Enable Aura Over Level 99 And Level 150
+Allows the client to display standard auras over level 99 and 3rd class auras over level 150.
+
+============= WDGEnableCustom3DBones
+Enable Custom 3D Bones
+Enables the use of custom 3D monsters (Granny) by lifting hardcoded ID limit.
+See http://rathena.org/board/index.php?showtopic=68884 for further details.
+
+============= WDGEnableProxySupport
+Enable Proxy Support
+Ignores server-provided IP addresses when changing servers.
+
+============= WDGEnableMultipleGRF
+Enable Multiple GRFs
+Tells the client to load grf files based on a list within data.ini.
+
+============= WDGEnableTitleBarMenu
+Enable Title Bar Menu
+Changes the window style to display all buttons (minimize, maximize, close) and the icon in the title bar.
+
+============= WDGEnableAsciiInText
+Enable ASCII in Text
+Allows use of non-english characters in chat.
+
+============= WDGEnable64kHairstyles
+Enable 64K hairstyles
+Lifts the limit of 27 official hairstyles up to 65535.
+
+============= WDGExtendedChatRoomBox
+Extended Chat Room Box
+Increases max input chars of chat room boxes from 70 to 234.
+
+============= WDGExtendedPMBox
+Extended PM Box
+Increases max input chars of PM boxes from 70 to 234.
+
+============= WDGExtendedChatBox
+Extended Chat Box
+Increases max input chars of main/battle chat box from 70 to 234.
+
+============= WDGExtendedNPCDialog
+Extended NPC Dialog
+Increases max input chars of NPC dialog boxes from 2052 to a value of choice.
+
+============= WDGFixCameraAnglesMedium
+Fix Camera Angles Medium
+Allows you to rotate around the x-axis for almost 60 degrees.
+
+============= WDGFixCameraAnglesLess
+Fix Camera Angles Less
+Allows you to rotate around the x-axis for almost 30 degrees.
+
+============= WDGFixCameraAnglesFull
+Fix Camera Angles Full
+Allows you to rotate around the x-axis without restrictions.
+
+============= WDGHKLMtoHKCU
+HKLM to HKCU
+Uses the windows registry HKEY_CURRENT_USER instead of HKEY_LOCAL_MACHINE to save registry entries.
+
+============= WDGIgnoreMissingFileErrors
+Ignore Missing File Errors
+Prevents the client from displaying error messages about missing files.
+
+============= WDGIgnoreMissingPaletteErrors
+Ignore Missing Palette Errors
+Prevents the client from displaying error messages about missing palettes.
+
+============= WDGIncreaseZoomOut50Per
+Increase Zoom Out 50%
+Allows you to zoom out 50% further from the ground.
+
+============= WDGIncreaseHeadgearViewID
+Increase Headgear View ID
+Allows you to increase the maximal view id used in LUA script files.
+
+============= WDGIncreaseZoomOutMax
+Increase Zoom Out Max
+Allows you to zoom out as far as you want.
+
+============= WDGIncreaseZoomOut75Per
+Increase Zoom Out 75%
+Allows you to zoom out 75% further from the ground.
+
+============= WDGLoadLUABeforeLUB
+Load LUA Before LUB
+Allows you to load LUA files before LUB files are being loaded.
+
+============= WDGOnlyFirstLoginBackground
+Only First Login Background
+Displays always the first login background.
+
+============= WDGOnlySecondLoginBackground
+Only Second Login Background
+Displays always the second login background.
+
+============= WDGReadQuestTable
+Read questid2display.txt
+Allows you to read the quest table on all languages.
+
+============= WDGReadMsgStringTable
+Read msgstringtable.txt
+Allows you to read the message string table on all languages.
+
+============= WDGReadDataFolderFirst
+Read Data Folder First
+Attempts to read files inside the data folder prior to those in grf archives.
+
+============= WDGRemoveLoginErrorCode
+Remove Login Error Code
+Removes numeric error code in parentheses from login error messages.
+
+============= WDGRemoveGravityLogo
+Remove Gravity Logo
+Removes gravitys logo from the login interface.
+
+============= WDGRemoveGravityAds
+Remove Gravity Ads
+Removes advertisements from the login interface.
+
+============= WDGRemoveHourlyPlaytimeMinder
+Remove Hourly Playtime-Minder
+Removes hourly announces keeping track of your time spent in-game and telling you to stop playing after 3 hours.
+
+============= WDGRemoveHourlyGameGrade
+Remove Hourly Game Grade Banner
+Removes age appropriance banner that appears for 10 seconds every hour at o'clock to the left of the mini-map.
+
+============= WDGRemoveQuakeSkillEffect
+Remove Quake Skill Effect
+Removes all visual shake effects that happen when casting Heaven's Drive, Explosion Spirits and similar skills.
+
+============= WDGRemoveSerialDisplay
+Remove Serial Display
+Removes the display of the client serial number in the login window (bottom right corner).
+
+============= WDGRestoreLoginWindow
+Restore Login Window
+Tells the client to use the old login interface prior to Gravitys new token based login system.
+
+============= WDGScreenshotQuality
+Change Screenshot Quality
+Allows changing the JPEG quality parameter for screenshots.
+
+============= WDGSharedBodyPalettes
+Shared Body Palettes
+Makes the client use a single cloth palette set (body_%d.pal) for all job classes.
+
+============= WDGSharedHeadPalettes
+Shared Head Palettes
+Makes the client use a single hair palette set (head_%d.pal) for all hair styles.
+
+============= WDGSkipServiceSelect
+Skip Service Select
+Jumps directly to the login interface without asking to select a service.
+
+============= WDGSkipLicenseScreen
+Skip License Screen
+Jumps directly to the login interface without displaying the license screen.
+
+============= WDGSkipResurrectionButtons
+Skip Resurrection Buttons
+Skips the ressurection button whenever you die or use Token of Siegfried.
+
+============= WDGTranslateClientIntoEnglish
+Translate Client Into English
+Translates hardcoded text inside the client into english.
+
+============= WDGUseRagnarokIcon
+Use Ragnarok Icon
+Tells the client to use the default Ragnarok icon.
+
+============= WDGUseArialOnAllLangtypes
+Use Arial On All Langtypes
+Changes the default font to Arial on all language types.
+
+============= WDGUseNormalGuildBrackets
+Use Normal Guild Brackets
+Changes the bracket style of language type 0 to use square brackets.
+
+============= WDGUseCustomAuraSprites
+Use Custom Aura Sprites
+Loads aurafloat.tga and auraring.bmp for auras instead of ring_blue.tga and pikapika2.bmp.
+
+============= WDGUseCustomFont
+Use Custom Font
+Allows the use of user-defined font for all langtypes. The langtype-specific charset is still being enforced, so if the selected font does not support it, the system falls back to a font that does.
+
+============= WDGUsePlainTextDescriptions
+Use Plain Text Descriptions
+Tells the client that text files are not encoded.
+
+============= WDGUseSSOLoginPacket
+Use SSO Login Packet
+Makes the client use login packet 0x825 on all langtypes.
